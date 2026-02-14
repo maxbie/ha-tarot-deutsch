@@ -1,0 +1,29 @@
+# Home Assistant spezifische Dateien
+secrets.yaml
+*.log
+*.db
+*.db-shm
+*.db-wal
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporäre Dateien
+*.tmp
+*.bak
+*.backup

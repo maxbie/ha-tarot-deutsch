@@ -1,0 +1,61 @@
+# Template Sensoren für Tarot-Karten
+# Lesen die Karteninformationen aus der JSON-Datei basierend auf dem gewählten Kartennamen
+
+template:
+  - sensor:
+      - name: "Tarot Karte Bild"
+        icon: mdi:image
+        state: >-
+          {% set karten = states.sensor.tarot_karten_json.attributes.cards | default([]) %}
+          {% set aktuell = states('input_select.tarot_karte_name') %}
+          {% if karten and aktuell != 'Keine Karte gezogen' %}
+            {% set karte = karten | selectattr('name_de', 'equalto', aktuell) | list | first | default(none) %}
+            {% if karte %}
+              /local/tarot/{{ karte.image }}
+            {% else %}
+              /local/tarot/back.jpg
+            {% endif %}
+          {% else %}
+            /local/tarot/back.jpg
+          {% endif %}
+
+      - name: "Tarot Karte Bedeutung"
+        icon: mdi:text-box
+        state: >-
+          {% set karten = states.sensor.tarot_karten_json.attributes.cards | default([]) %}
+          {% set aktuell = states('input_select.tarot_karte_name') %}
+          {% if karten and aktuell != 'Keine Karte gezogen' %}
+            {% set karte = karten | selectattr('name_de', 'equalto', aktuell) | list | first | default(none) %}
+            {% if karte %}
+              {{ karte.bedeutung_de }}
+            {% else %}
+              Keine Bedeutung gefunden
+            {% endif %}
+          {% else %}
+            Ziehen Sie eine Karte, um die Bedeutung zu sehen
+          {% endif %}
+
+      - name: "Tarot Karte Englisch"
+        icon: mdi:translate
+        state: >-
+          {% set karten = states.sensor.tarot_karten_json.attributes.cards | default([]) %}
+          {% set aktuell = states('input_select.tarot_karte_name') %}
+          {% if karten and aktuell != 'Keine Karte gezogen' %}
+            {% set karte = karten | selectattr('name_de', 'equalto', aktuell) | list | first | default(none) %}
+            {% if karte %}
+              {{ karte.name_en }}
+            {% else %}
+              Unknown
+            {% endif %}
+          {% else %}
+            No card drawn
+          {% endif %}
+
+# File Sensor zum Laden der JSON-Datei
+sensor:
+  - platform: file
+    name: Tarot Karten JSON
+    file_path: /config/tarot_cards_de.json
+    value_template: "{{ value_json | length }}"
+    json_attributes_list: cards
+    scan_interval: 3600

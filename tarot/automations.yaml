@@ -1,0 +1,33 @@
+# Automatisierungen für Tarot-Karten
+
+# Tägliche Karte um 07:00 Uhr
+- id: taegliche_tarot_karte
+  alias: "Tägliche Tarot-Karte"
+  description: "Zieht jeden Morgen um 07:00 Uhr eine neue Tarot-Karte"
+  trigger:
+    - platform: time
+      at: "07:00:00"
+  action:
+    - service: script.tarot_karte_ziehen
+  mode: single
+
+# Optional: Benachrichtigung mit der Tageskarte
+# Entfernen Sie die Kommentare (#) um diese Automatisierung zu aktivieren
+#- id: tarot_benachrichtigung
+#  alias: "Tarot-Karte Benachrichtigung"
+#  description: "Sendet eine Benachrichtigung mit der Tarot-Karte des Tages"
+#  trigger:
+#    - platform: state
+#      entity_id: input_select.tarot_karte_name
+#  condition:
+#    - condition: template
+#      value_template: "{{ trigger.to_state.state != 'Keine Karte gezogen' }}"
+#  action:
+#    - service: notify.mobile_app  # Passen Sie dies an Ihren Benachrichtigungsdienst an
+#      data:
+#        title: "🔮 Ihre Tarot-Karte des Tages"
+#        message: >
+#          {{ states('input_select.tarot_karte_name') }}
+#          
+#          {{ states('sensor.tarot_karte_bedeutung') }}
+#  mode: single

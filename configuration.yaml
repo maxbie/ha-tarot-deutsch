@@ -1,0 +1,20 @@
+# Home Assistant Tarot Konfiguration
+# 
+# Diese Datei zeigt die notwendigen Einträge für die Tarot-Integration.
+# Sie können diese Inhalte entweder direkt in Ihre configuration.yaml einfügen
+# oder die einzelnen YAML-Dateien aus dem tarot/-Ordner inkludieren.
+
+# ===== OPTION 1: Direktes Einfügen =====
+# Kopieren Sie die Inhalte der einzelnen YAML-Dateien direkt in Ihre configuration.yaml
+
+# ===== OPTION 2: Inkludieren (Empfohlen) =====
+# Erstellen Sie einen Ordner /config/tarot/ und nutzen Sie diese Zeilen:
+
+input_select: !include tarot/input_select.yaml
+sensor: !include tarot/sensor.yaml
+script: !include tarot/scripts.yaml
+automation: !include tarot/automations.yaml
+
+# ===== WICHTIG =====
+# Stellen Sie sicher, dass die Datei tarot_cards_de.json 
+# im /config-Verzeichnis liegt und die Bilder in /config/www/tarot/

@@ -1,0 +1,146 @@
+# Lovelace Dashboard Karten für Tarot
+# Kopieren Sie diese YAML-Beispiele in Ihr Dashboard
+
+# ===== KARTE 1: Einfache Markdown-Karte =====
+type: markdown
+content: |
+  ## 🔮 Tägliche Tarot-Karte
+  
+  **{{ states('input_select.tarot_karte_name') }}**
+  
+  ![Tarot]({{ states('sensor.tarot_karte_bild') }})
+  
+  {{ states('sensor.tarot_karte_bedeutung') }}
+
+# ===== KARTE 2: Picture-Entity Karte mit Button =====
+type: vertical-stack
+cards:
+  - type: picture-entity
+    entity: sensor.tarot_karte_bild
+    name: Tarot-Karte des Tages
+    show_name: true
+    show_state: false
+    image: "{{ states('sensor.tarot_karte_bild') }}"
+  - type: entities
+    entities:
+      - entity: input_select.tarot_karte_name
+        name: Karte
+      - entity: sensor.tarot_karte_bedeutung
+        name: Bedeutung
+  - type: button
+    name: Neue Karte ziehen
+    icon: mdi:cards
+    tap_action:
+      action: call-service
+      service: script.tarot_karte_ziehen
+
+# ===== KARTE 3: Moderne Card mit Image und Text =====
+type: vertical-stack
+cards:
+  - type: custom:button-card
+    entity: sensor.tarot_karte_bild
+    name: "{{ states('input_select.tarot_karte_name') }}"
+    show_state: false
+    show_icon: false
+    show_entity_picture: true
+    entity_picture: "{{ states('sensor.tarot_karte_bild') }}"
+    styles:
+      card:
+        - height: 400px
+      name:
+        - font-size: 24px
+        - font-weight: bold
+        - color: var(--primary-text-color)
+  - type: markdown
+    content: |
+      ### {{ states('input_select.tarot_karte_name') }}
+      
+      _{{ states('sensor.tarot_karte_englisch') }}_
+      
+      {{ states('sensor.tarot_karte_bedeutung') }}
+  - type: horizontal-stack
+    cards:
+      - type: button
+        name: Neue Karte
+        icon: mdi:autorenew
+        tap_action:
+          action: call-service
+          service: script.tarot_karte_ziehen
+
+# ===== KARTE 4: Kompakte Ansicht =====
+type: entities
+title: 🔮 Tarot des Tages
+show_header_toggle: false
+entities:
+  - entity: input_select.tarot_karte_name
+    name: Karte
+    icon: mdi:cards-playing
+  - type: attribute
+    entity: sensor.tarot_karte_englisch
+    attribute: state
+    name: Englischer Name
+  - type: divider
+  - entity: sensor.tarot_karte_bedeutung
+    name: Bedeutung
+  - type: button
+    name: Neue Karte ziehen
+    icon: mdi:autorenew
+    action_name: Ziehen
+    tap_action:
+      action: call-service
+      service: script.tarot_karte_ziehen
+
+# ===== KARTE 5: Grid Layout mit Bild und Details =====
+type: grid
+columns: 2
+square: false
+cards:
+  - type: picture
+    image: "{{ states('sensor.tarot_karte_bild') }}"
+    tap_action:
+      action: call-service
+      service: script.tarot_karte_ziehen
+  - type: markdown
+    content: |
+      ## {{ states('input_select.tarot_karte_name') }}
+      
+      **{{ states('sensor.tarot_karte_englisch') }}**
+      
+      ---
+      
+      {{ states('sensor.tarot_karte_bedeutung') }}
+      
+      ---
+      
+      _Tippen Sie auf das Bild, um eine neue Karte zu ziehen_
+
+# ===== KARTE 6: Conditional Card (zeigt nur wenn Karte gezogen) =====
+type: conditional
+conditions:
+  - entity: input_select.tarot_karte_name
+    state_not: "Keine Karte gezogen"
+card:
+  type: vertical-stack
+  cards:
+    - type: markdown
+      content: |
+        ## 🔮 Ihre Tarot-Karte
+        
+        ### {{ states('input_select.tarot_karte_name') }}
+        
+        ![Karte]({{ states('sensor.tarot_karte_bild') }})
+        
+        {{ states('sensor.tarot_karte_bedeutung') }}
+    - type: button
+      name: Neue Karte ziehen
+      icon: mdi:refresh
+      tap_action:
+        action: call-service
+        service: script.tarot_karte_ziehen
+
+# ===== HINWEISE =====
+# 
+# Für die custom:button-card müssen Sie das Custom Button Card Plugin
+# über HACS installieren: https://github.com/custom-cards/button-card
+#
+# Passen Sie die Farben und Stile nach Ihren Wünschen an!

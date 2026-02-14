@@ -1,0 +1,550 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name_de": "Der Narr",
+      "name_en": "The Fool",
+      "image": "m00.jpg",
+      "bedeutung_de": "Neubeginn, am Anfang stehen, sorglos, unbefangen und neugierig; man sollte den Aufbruch in ein neues Leben wagen, aber sich die Konsequenzen vorher anschauen"
+    },
+    {
+      "id": 1,
+      "name_de": "Der Magier",
+      "name_en": "The Magician",
+      "image": "m01.jpg",
+      "bedeutung_de": "Geschicklichkeit, Diplomatie und der kluge Umgang mit vorhandenen Fähigkeiten; steht für Initiative, Selbstvertrauen und die Fähigkeit, eigene Ziele zu verwirklichen"
+    },
+    {
+      "id": 2,
+      "name_de": "Die Hohepriesterin",
+      "name_en": "The High Priestess",
+      "image": "m02.jpg",
+      "bedeutung_de": "Intuition, verborgenes Wissen und innere Weisheit; fordert auf, auf die innere Stimme zu hören und dem Unterbewusstsein zu vertrauen"
+    },
+    {
+      "id": 3,
+      "name_de": "Die Herrscherin",
+      "name_en": "The Empress",
+      "image": "m03.jpg",
+      "bedeutung_de": "Fruchtbarkeit, Kreativität und Fülle; symbolisiert Wachstum, Mutterschaft und die nährende Kraft der Natur"
+    },
+    {
+      "id": 4,
+      "name_de": "Der Herrscher",
+      "name_en": "The Emperor",
+      "image": "m04.jpg",
+      "bedeutung_de": "Autorität, Struktur und Kontrolle; steht für Führung, Stabilität und die Fähigkeit, Ordnung zu schaffen"
+    },
+    {
+      "id": 5,
+      "name_de": "Der Hierophant",
+      "name_en": "The Hierophant",
+      "image": "m05.jpg",
+      "bedeutung_de": "Tradition, spirituelle Weisheit und Lehre; repräsentiert Konventionen, Glaubenssysteme und die Suche nach höherem Wissen"
+    },
+    {
+      "id": 6,
+      "name_de": "Die Liebenden",
+      "name_en": "The Lovers",
+      "image": "m06.jpg",
+      "bedeutung_de": "Liebe, Harmonie und wichtige Entscheidungen; symbolisiert Beziehungen, moralische Wahl und die Vereinigung von Gegensätzen"
+    },
+    {
+      "id": 7,
+      "name_de": "Der Wagen",
+      "name_en": "The Chariot",
+      "image": "m07.jpg",
+      "bedeutung_de": "Willenskraft, Entschlossenheit und Sieg; steht für Kontrolle, Durchsetzungsvermögen und das Erreichen von Zielen durch innere Stärke"
+    },
+    {
+      "id": 8,
+      "name_de": "Die Kraft",
+      "name_en": "Strength",
+      "image": "m08.jpg",
+      "bedeutung_de": "Innere Stärke, Mut und Geduld; symbolisiert die Kraft der Sanftmut, Selbstbeherrschung und die Überwindung von Hindernissen durch Mitgefühl"
+    },
+    {
+      "id": 9,
+      "name_de": "Der Eremit",
+      "name_en": "The Hermit",
+      "image": "m09.jpg",
+      "bedeutung_de": "Rückzug, Selbstfindung und innere Führung; fordert zur Selbstreflexion auf und steht für Weisheit, die durch Alleinsein gewonnen wird"
+    },
+    {
+      "id": 10,
+      "name_de": "Das Rad des Schicksals",
+      "name_en": "Wheel of Fortune",
+      "image": "m10.jpg",
+      "bedeutung_de": "Schicksal, Zyklen und Wendepunkte; symbolisiert Veränderung, Glück und die unausweichlichen Höhen und Tiefen des Lebens"
+    },
+    {
+      "id": 11,
+      "name_de": "Die Gerechtigkeit",
+      "name_en": "Justice",
+      "image": "m11.jpg",
+      "bedeutung_de": "Gerechtigkeit, Fairness und Wahrheit; steht für Ausgewogenheit, Konsequenzen von Handlungen und rationale Entscheidungsfindung"
+    },
+    {
+      "id": 12,
+      "name_de": "Der Gehängte",
+      "name_en": "The Hanged Man",
+      "image": "m12.jpg",
+      "bedeutung_de": "Perspektivwechsel, Loslassen und Opfer; symbolisiert eine Phase des Wartens, neue Sichtweisen und spirituelle Entwicklung durch Hingabe"
+    },
+    {
+      "id": 13,
+      "name_de": "Der Tod",
+      "name_en": "Death",
+      "image": "m13.jpg",
+      "bedeutung_de": "Transformation, Neuanfang und Abschluss; steht für das Ende eines Kapitels und den notwendigen Wandel für neues Wachstum"
+    },
+    {
+      "id": 14,
+      "name_de": "Die Mäßigung",
+      "name_en": "Temperance",
+      "image": "m14.jpg",
+      "bedeutung_de": "Balance, Harmonie und Geduld; symbolisiert Mäßigung, innere Ruhe und die Kunst, Gegensätze zu vereinen"
+    },
+    {
+      "id": 15,
+      "name_de": "Der Teufel",
+      "name_en": "The Devil",
+      "image": "m15.jpg",
+      "bedeutung_de": "Versuchung, Abhängigkeit und materielle Bindungen; warnt vor Selbsttäuschung, ungesunden Gewohnheiten und freiwilliger Gefangenschaft"
+    },
+    {
+      "id": 16,
+      "name_de": "Der Turm",
+      "name_en": "The Tower",
+      "image": "m16.jpg",
+      "bedeutung_de": "Plötzlicher Umbruch, Erschütterung und Offenbarung; symbolisiert notwendige Zerstörung falscher Strukturen für einen Neuanfang"
+    },
+    {
+      "id": 17,
+      "name_de": "Der Stern",
+      "name_en": "The Star",
+      "image": "m17.jpg",
+      "bedeutung_de": "Hoffnung, Inspiration und Erneuerung; steht für Optimismus, Heilung und das Vertrauen in eine bessere Zukunft"
+    },
+    {
+      "id": 18,
+      "name_de": "Der Mond",
+      "name_en": "The Moon",
+      "image": "m18.jpg",
+      "bedeutung_de": "Illusion, Angst und das Unterbewusste; warnt vor Täuschung, fordert auf, verborgene Wahrheiten zu erkennen und Ängsten zu begegnen"
+    },
+    {
+      "id": 19,
+      "name_de": "Die Sonne",
+      "name_en": "The Sun",
+      "image": "m19.jpg",
+      "bedeutung_de": "Freude, Erfolg und Vitalität; symbolisiert Klarheit, Wärme, Lebensfreude und das Erreichen von Zielen"
+    },
+    {
+      "id": 20,
+      "name_de": "Das Gericht",
+      "name_en": "Judgement",
+      "image": "m20.jpg",
+      "bedeutung_de": "Erwachen, Erlösung und wichtige Entscheidungen; steht für Selbstreflexion, Vergebung und einen Neubeginn auf höherer Ebene"
+    },
+    {
+      "id": 21,
+      "name_de": "Die Welt",
+      "name_en": "The World",
+      "image": "m21.jpg",
+      "bedeutung_de": "Vollendung, Erfüllung und Ganzheit; symbolisiert den erfolgreichen Abschluss eines Zyklus und das Erreichen von Harmonie"
+    },
+    {
+      "id": 22,
+      "name_de": "As der Stäbe",
+      "name_en": "Ace of Wands",
+      "image": "w01.jpg",
+      "bedeutung_de": "Neuer Anfang in kreativen Projekten; steht für Inspiration, Leidenschaft und das Potential für Wachstum"
+    },
+    {
+      "id": 23,
+      "name_de": "Zwei der Stäbe",
+      "name_en": "Two of Wands",
+      "image": "w02.jpg",
+      "bedeutung_de": "Planung und Zukunftsvisionen; symbolisiert Entscheidungen über den nächsten Schritt und persönliche Macht"
+    },
+    {
+      "id": 24,
+      "name_de": "Drei der Stäbe",
+      "name_en": "Three of Wands",
+      "image": "w03.jpg",
+      "bedeutung_de": "Expansion, Voraussicht und Fortschritt; steht für das Warten auf Ergebnisse und den Blick über den Horizont hinaus"
+    },
+    {
+      "id": 25,
+      "name_de": "Vier der Stäbe",
+      "name_en": "Four of Wands",
+      "image": "w04.jpg",
+      "bedeutung_de": "Feier, Harmonie und Heimat; symbolisiert Freude, Stabilität und das Feiern von Meilensteinen"
+    },
+    {
+      "id": 26,
+      "name_de": "Fünf der Stäbe",
+      "name_en": "Five of Wands",
+      "image": "w05.jpg",
+      "bedeutung_de": "Konflikt, Wettbewerb und Herausforderungen; steht für Meinungsverschiedenheiten und den Kampf um Position"
+    },
+    {
+      "id": 27,
+      "name_de": "Sechs der Stäbe",
+      "name_en": "Six of Wands",
+      "image": "w06.jpg",
+      "bedeutung_de": "Sieg, Anerkennung und Erfolg; symbolisiert öffentliche Würdigung und das Überwinden von Hindernissen"
+    },
+    {
+      "id": 28,
+      "name_de": "Sieben der Stäbe",
+      "name_en": "Seven of Wands",
+      "image": "w07.jpg",
+      "bedeutung_de": "Verteidigung, Durchhaltevermögen und Standhalten; steht für Mut, seine Position zu behaupten trotz Widerstand"
+    },
+    {
+      "id": 29,
+      "name_de": "Acht der Stäbe",
+      "name_en": "Eight of Wands",
+      "image": "w08.jpg",
+      "bedeutung_de": "Schnelle Bewegung, rasche Entwicklung und Nachrichten; symbolisiert Schwung, Fortschritt und nahende Ereignisse"
+    },
+    {
+      "id": 30,
+      "name_de": "Neun der Stäbe",
+      "name_en": "Nine of Wands",
+      "image": "w09.jpg",
+      "bedeutung_de": "Widerstandsfähigkeit, letzte Verteidigung und Ausdauer; steht für das Durchhalten trotz Erschöpfung"
+    },
+    {
+      "id": 31,
+      "name_de": "Zehn der Stäbe",
+      "name_en": "Ten of Wands",
+      "image": "w10.jpg",
+      "bedeutung_de": "Überlastung, Verantwortung und Bürden; warnt vor zu viel Last und der Notwendigkeit, Aufgaben zu delegieren"
+    },
+    {
+      "id": 32,
+      "name_de": "Bube der Stäbe",
+      "name_en": "Page of Wands",
+      "image": "w11.jpg",
+      "bedeutung_de": "Begeisterung, Erkundung und Neuigkeiten; symbolisiert jugendliche Energie und den Beginn kreativer Unternehmungen"
+    },
+    {
+      "id": 33,
+      "name_de": "Ritter der Stäbe",
+      "name_en": "Knight of Wands",
+      "image": "w12.jpg",
+      "bedeutung_de": "Abenteuer, Impulsivität und Leidenschaft; steht für Energie, Risikobereitschaft und schnelles Handeln"
+    },
+    {
+      "id": 34,
+      "name_de": "Königin der Stäbe",
+      "name_en": "Queen of Wands",
+      "image": "w13.jpg",
+      "bedeutung_de": "Selbstvertrauen, Charisma und Unabhängigkeit; symbolisiert eine lebendige, warmherzige und entschlossene Persönlichkeit"
+    },
+    {
+      "id": 35,
+      "name_de": "König der Stäbe",
+      "name_en": "King of Wands",
+      "image": "w14.jpg",
+      "bedeutung_de": "Führung, Vision und Unternehmertum; steht für natürliche Autorität, Mut und die Fähigkeit zu inspirieren"
+    },
+    {
+      "id": 36,
+      "name_de": "As der Kelche",
+      "name_en": "Ace of Cups",
+      "image": "c01.jpg",
+      "bedeutung_de": "Neue Liebe, emotionale Erfüllung und spirituelle Öffnung; symbolisiert den Beginn tiefer Gefühle und innerer Freude"
+    },
+    {
+      "id": 37,
+      "name_de": "Zwei der Kelche",
+      "name_en": "Two of Cups",
+      "image": "c02.jpg",
+      "bedeutung_de": "Partnerschaft, gegenseitige Anziehung und Harmonie; steht für Liebe, Verbindung und ausgeglichene Beziehungen"
+    },
+    {
+      "id": 38,
+      "name_de": "Drei der Kelche",
+      "name_en": "Three of Cups",
+      "image": "c03.jpg",
+      "bedeutung_de": "Freundschaft, Feiern und Gemeinschaft; symbolisiert Freude, soziale Zusammenkünfte und geteiltes Glück"
+    },
+    {
+      "id": 39,
+      "name_de": "Vier der Kelche",
+      "name_en": "Four of Cups",
+      "image": "c04.jpg",
+      "bedeutung_de": "Apathie, Meditation und verpasste Chancen; warnt vor Unzufriedenheit und fordert auf, neue Möglichkeiten zu erkennen"
+    },
+    {
+      "id": 40,
+      "name_de": "Fünf der Kelche",
+      "name_en": "Five of Cups",
+      "image": "c05.jpg",
+      "bedeutung_de": "Verlust, Trauer und Enttäuschung; steht für emotionale Schwierigkeiten, aber auch die Hoffnung auf Heilung"
+    },
+    {
+      "id": 41,
+      "name_de": "Sechs der Kelche",
+      "name_en": "Six of Cups",
+      "image": "c06.jpg",
+      "bedeutung_de": "Nostalgie, Kindheitserinnerungen und Unschuld; symbolisiert glückliche Erinnerungen und die Rückkehr zur Einfachheit"
+    },
+    {
+      "id": 42,
+      "name_de": "Sieben der Kelche",
+      "name_en": "Seven of Cups",
+      "image": "c07.jpg",
+      "bedeutung_de": "Illusionen, Wahlmöglichkeiten und Fantasie; warnt vor unrealistischen Träumen und der Notwendigkeit, Prioritäten zu setzen"
+    },
+    {
+      "id": 43,
+      "name_de": "Acht der Kelche",
+      "name_en": "Eight of Cups",
+      "image": "c08.jpg",
+      "bedeutung_de": "Loslassen, Suche nach tieferem Sinn und Rückzug; steht für das Verlassen des Bekannten zugunsten spirituellen Wachstums"
+    },
+    {
+      "id": 44,
+      "name_de": "Neun der Kelche",
+      "name_en": "Nine of Cups",
+      "image": "c09.jpg",
+      "bedeutung_de": "Wunscherfüllung, Zufriedenheit und emotionales Wohlbefinden; symbolisiert Glück, Genuss und erreichte Ziele"
+    },
+    {
+      "id": 45,
+      "name_de": "Zehn der Kelche",
+      "name_en": "Ten of Cups",
+      "image": "c10.jpg",
+      "bedeutung_de": "Familiäres Glück, Harmonie und emotionale Erfüllung; steht für dauerhafte Freude und liebevolle Beziehungen"
+    },
+    {
+      "id": 46,
+      "name_de": "Bube der Kelche",
+      "name_en": "Page of Cups",
+      "image": "c11.jpg",
+      "bedeutung_de": "Kreative Botschaften, Intuition und emotionale Sensibilität; symbolisiert neue Gefühle und künstlerische Inspiration"
+    },
+    {
+      "id": 47,
+      "name_de": "Ritter der Kelche",
+      "name_en": "Knight of Cups",
+      "image": "c12.jpg",
+      "bedeutung_de": "Romantik, Charme und emotionale Angebote; steht für Idealismus, Verfolgung von Träumen und gefühlvolle Gesten"
+    },
+    {
+      "id": 48,
+      "name_de": "Königin der Kelche",
+      "name_en": "Queen of Cups",
+      "image": "c13.jpg",
+      "bedeutung_de": "Empathie, Intuition und emotionale Reife; symbolisiert eine fürsorgliche, einfühlsame und spirituell verbundene Person"
+    },
+    {
+      "id": 49,
+      "name_de": "König der Kelche",
+      "name_en": "King of Cups",
+      "image": "c14.jpg",
+      "bedeutung_de": "Emotionale Ausgeglichenheit, Weisheit und Mitgefühl; steht für die Kontrolle über Gefühle und diplomatisches Handeln"
+    },
+    {
+      "id": 50,
+      "name_de": "As der Schwerter",
+      "name_en": "Ace of Swords",
+      "image": "s01.jpg",
+      "bedeutung_de": "Mentale Klarheit, Durchbruch und Wahrheit; symbolisiert neue Ideen, Gerechtigkeit und den Sieg des Verstandes"
+    },
+    {
+      "id": 51,
+      "name_de": "Zwei der Schwerter",
+      "name_en": "Two of Swords",
+      "image": "s02.jpg",
+      "bedeutung_de": "Schwierige Entscheidung, Patt und blockierte Emotionen; steht für Vermeidung und die Notwendigkeit, eine Wahl zu treffen"
+    },
+    {
+      "id": 52,
+      "name_de": "Drei der Schwerter",
+      "name_en": "Three of Swords",
+      "image": "s03.jpg",
+      "bedeutung_de": "Herzschmerz, emotionaler Schmerz und Trennung; symbolisiert Kummer, Verrat und die Heilung durch Akzeptanz"
+    },
+    {
+      "id": 53,
+      "name_de": "Vier der Schwerter",
+      "name_en": "Four of Swords",
+      "image": "s04.jpg",
+      "bedeutung_de": "Ruhe, Erholung und Meditation; steht für die Notwendigkeit einer Pause, um Kräfte zu sammeln"
+    },
+    {
+      "id": 54,
+      "name_de": "Fünf der Schwerter",
+      "name_en": "Five of Swords",
+      "image": "s05.jpg",
+      "bedeutung_de": "Konflikt, Niederlage und unehrlicher Sieg; warnt vor destruktivem Verhalten und den Kosten des Gewinnens um jeden Preis"
+    },
+    {
+      "id": 55,
+      "name_de": "Sechs der Schwerter",
+      "name_en": "Six of Swords",
+      "image": "s06.jpg",
+      "bedeutung_de": "Übergang, Erholung und Bewegung in ruhigere Gewässer; symbolisiert das Verlassen von Problemen und Heilung"
+    },
+    {
+      "id": 56,
+      "name_de": "Sieben der Schwerter",
+      "name_en": "Seven of Swords",
+      "image": "s07.jpg",
+      "bedeutung_de": "Täuschung, Strategie und heimliches Handeln; warnt vor Unehrlichkeit oder der Notwendigkeit diplomatischer Cleverness"
+    },
+    {
+      "id": 57,
+      "name_de": "Acht der Schwerter",
+      "name_en": "Eight of Swords",
+      "image": "s08.jpg",
+      "bedeutung_de": "Gefangenschaft, Selbstbeschränkung und Hilflosigkeit; steht für mentale Blockaden und die Macht, sich selbst zu befreien"
+    },
+    {
+      "id": 58,
+      "name_de": "Neun der Schwerter",
+      "name_en": "Nine of Swords",
+      "image": "s09.jpg",
+      "bedeutung_de": "Angst, Sorgen und nächtliche Qualen; symbolisiert Stress, Alpträume und die Notwendigkeit, Ängste zu überwinden"
+    },
+    {
+      "id": 59,
+      "name_de": "Zehn der Schwerter",
+      "name_en": "Ten of Swords",
+      "image": "s10.jpg",
+      "bedeutung_de": "Schmerzhaftes Ende, Verrat und Tiefpunkt; steht für das Ende eines Zyklus und die Hoffnung auf einen Neuanfang"
+    },
+    {
+      "id": 60,
+      "name_de": "Bube der Schwerter",
+      "name_en": "Page of Swords",
+      "image": "s11.jpg",
+      "bedeutung_de": "Neugier, Wachsamkeit und neue Ideen; symbolisiert geistige Energie, Kommunikation und den Wunsch nach Wahrheit"
+    },
+    {
+      "id": 61,
+      "name_de": "Ritter der Schwerter",
+      "name_en": "Knight of Swords",
+      "image": "s12.jpg",
+      "bedeutung_de": "Schnelles Handeln, Durchsetzungskraft und Direktheit; steht für Entschlossenheit, kann aber auch Ungestüm bedeuten"
+    },
+    {
+      "id": 62,
+      "name_de": "Königin der Schwerter",
+      "name_en": "Queen of Swords",
+      "image": "s13.jpg",
+      "bedeutung_de": "Unabhängigkeit, klares Denken und Objektivität; symbolisiert eine scharfsinnige, ehrliche und unabhängige Persönlichkeit"
+    },
+    {
+      "id": 63,
+      "name_de": "König der Schwerter",
+      "name_en": "King of Swords",
+      "image": "s14.jpg",
+      "bedeutung_de": "Intellekt, Autorität und moralische Klarheit; steht für Gerechtigkeit, rationales Denken und ethische Führung"
+    },
+    {
+      "id": 64,
+      "name_de": "As der Münzen",
+      "name_en": "Ace of Pentacles",
+      "image": "p01.jpg",
+      "bedeutung_de": "Neue finanzielle Möglichkeit, Wohlstand und materieller Anfang; symbolisiert Chancen für Wachstum und Sicherheit"
+    },
+    {
+      "id": 65,
+      "name_de": "Zwei der Münzen",
+      "name_en": "Two of Pentacles",
+      "image": "p02.jpg",
+      "bedeutung_de": "Balance, Flexibilität und Prioritäten jonglieren; steht für Anpassungsfähigkeit im Umgang mit mehreren Verantwortlichkeiten"
+    },
+    {
+      "id": 66,
+      "name_de": "Drei der Münzen",
+      "name_en": "Three of Pentacles",
+      "image": "p03.jpg",
+      "bedeutung_de": "Teamarbeit, Zusammenarbeit und Handwerkskunst; symbolisiert gemeinsame Anstrengung, Können und Anerkennung für Qualität"
+    },
+    {
+      "id": 67,
+      "name_de": "Vier der Münzen",
+      "name_en": "Four of Pentacles",
+      "image": "p04.jpg",
+      "bedeutung_de": "Kontrolle, Sicherheit und Festhalten; warnt vor Geiz, übermäßiger Kontrolle und der Angst vor Verlust"
+    },
+    {
+      "id": 68,
+      "name_de": "Fünf der Münzen",
+      "name_en": "Five of Pentacles",
+      "image": "p05.jpg",
+      "bedeutung_de": "Finanzielle Schwierigkeiten, Verlust und Isolation; steht für harte Zeiten, aber auch für verfügbare Hilfe"
+    },
+    {
+      "id": 69,
+      "name_de": "Sechs der Münzen",
+      "name_en": "Six of Pentacles",
+      "image": "c06.jpg",
+      "bedeutung_de": "Großzügigkeit, Geben und Empfangen und Fairness; symbolisiert Wohltätigkeit, Teilen und ausgeglichenen Austausch"
+    },
+    {
+      "id": 70,
+      "name_de": "Sieben der Münzen",
+      "name_en": "Seven of Pentacles",
+      "image": "p07.jpg",
+      "bedeutung_de": "Bewertung, Geduld und langfristige Belohnungen; steht für das Warten auf Ergebnisse und Überlegung der nächsten Schritte"
+    },
+    {
+      "id": 71,
+      "name_de": "Acht der Münzen",
+      "name_en": "Eight of Pentacles",
+      "image": "p08.jpg",
+      "bedeutung_de": "Fleiß, Meisterschaft und harte Arbeit; symbolisiert Hingabe an das Handwerk und kontinuierliche Verbesserung"
+    },
+    {
+      "id": 72,
+      "name_de": "Neun der Münzen",
+      "name_en": "Nine of Pentacles",
+      "image": "p09.jpg",
+      "bedeutung_de": "Unabhängigkeit, Luxus und Selbstgenügsamkeit; steht für finanziellen Erfolg, Genuss und erarbeiteten Wohlstand"
+    },
+    {
+      "id": 73,
+      "name_de": "Zehn der Münzen",
+      "name_en": "Ten of Pentacles",
+      "image": "p10.jpg",
+      "bedeutung_de": "Wohlstand, Erbe und familiäre Sicherheit; symbolisiert dauerhaften Erfolg, Tradition und generationsübergreifenden Reichtum"
+    },
+    {
+      "id": 74,
+      "name_de": "Bube der Münzen",
+      "name_en": "Page of Pentacles",
+      "image": "p11.jpg",
+      "bedeutung_de": "Neue Lernmöglichkeiten, Fleiß und praktische Pläne; symbolisiert den Beginn materieller Ziele und Studium"
+    },
+    {
+      "id": 75,
+      "name_de": "Ritter der Münzen",
+      "name_en": "Knight of Pentacles",
+      "image": "p12.jpg",
+      "bedeutung_de": "Zuverlässigkeit, Routine und methodisches Vorgehen; steht für harte Arbeit, Verantwortungsbewusstsein und langsame Fortschritte"
+    },
+    {
+      "id": 76,
+      "name_de": "Königin der Münzen",
+      "name_en": "Queen of Pentacles",
+      "image": "p13.jpg",
+      "bedeutung_de": "Fürsorge, Praktikabilität und finanzielle Sicherheit; symbolisiert eine bodenständige, großzügige und fürsorgliche Person"
+    },
+    {
+      "id": 77,
+      "name_de": "König der Münzen",
+      "name_en": "King of Pentacles",
+      "image": "p14.jpg",
+      "bedeutung_de": "Wohlstand, Geschäftssinn und materielle Erfolg; steht für finanzielle Macht, Stabilität und erfolgreiche Unternehmungen"
+    }
+  ]
+}
