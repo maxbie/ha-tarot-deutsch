@@ -11,12 +11,12 @@ template:
           {% if karten and aktuell != 'Keine Karte gezogen' %}
             {% set karte = karten | selectattr('name_de', 'equalto', aktuell) | list | first | default(none) %}
             {% if karte %}
-              /local/tarot/{{ karte.image }}
+              /local/maxb_media/tarot_bilder_fuer_github_texte/cards/{{ karte.image }}
             {% else %}
-              /local/tarot/back.jpg
+              /local/maxb_media/tarot_bilder_fuer_github_texte/cards/back.jpg
             {% endif %}
           {% else %}
-            /local/tarot/back.jpg
+            /local/maxb_media/tarot_bilder_fuer_github_texte/cards/back.jpg
           {% endif %}
 
       - name: "Tarot Karte Bedeutung"
